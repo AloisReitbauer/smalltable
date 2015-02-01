@@ -12,7 +12,7 @@ The library constists of one method *query* which takes a number of paramters.
 
 * database. The array of JavaScript objects you want to work with.
 * fields. The fields of the returned JavaScript objects.
-* constraints. Query constraints for individual fields. Currently only exaxt match is supported. 
+* constraints. Query constraints for individual fields. Currently only exact match is supported. 
 * aggregation. Defines whether the **last** field of the field array should be aggregated. Right now only sum is supported. 
  
 This is pretty much everything there is in smalltable.
@@ -21,16 +21,22 @@ This is pretty much everything there is in smalltable.
 
 Let's assume we have a simple data set of two elemetns.
 
+``` javascript
+var data = [
+  {type:'fruit', name:'Banana', price: 10.0},
+  {type:'vegetable', name: 'Tomoate', price: 5.0}
+  ];
+```
 
 Return all elements that are fruit and cost 10.0. 
 
 ``` javascript
-  fields = ['type', 'name'];
-  constraints = {
-    type: 'fruit',
-    price: '10'
-  };
-  smallTable.query(data, fields, constraints, false);
+fields = ['type', 'name'];
+constraints = {
+  type: 'fruit',
+  price: '10'
+};
+smallTable.query(data, fields, constraints, false);
 ```
 
 
