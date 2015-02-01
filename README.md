@@ -19,7 +19,7 @@ This is pretty much everything there is in smalltable.
 
 ## Example
 
-Let's assume we have a simple data set of two elemetns.
+Let's assume we have a simple data set of two elements.
 
 ``` javascript
 var data = [
