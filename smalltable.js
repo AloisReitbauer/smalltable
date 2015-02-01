@@ -1,4 +1,3 @@
- <script>
     // this is the small table code
 
     smallTable = new Object ();
@@ -63,6 +62,3 @@
       }
       return result;
     }
- 
-
-  </script>
