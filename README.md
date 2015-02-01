@@ -2,20 +2,20 @@
 
 ## About
 
-smalltable is a Big Table inspired JavaScript library to converts an arrar of JavaScript objects into a database.
+smalltable is a Big Table inspired JavaScript library that converts an array of JavaScript objects into a database.
 
 ## Usage
 
-smalltable is a very easy to use library and provides basic database-like functionalities. It was designed for simple datamanapulations on a raw dataset like filtering or aggreation.
+smalltable is a very easy to use library and provides basic database-like functionalities. It was designed for simple data manapulation like filtering or aggregation on a raw dataset .
 
-The library constists of one method *query* which takes a number of paramters. 
+The library consists of one method *query* which takes a number of paramters. 
 
-* database. The array of JavaScript objects you want to work with.
-* fields. The fields of the returned JavaScript objects.
-* constraints. Query constraints for individual fields. Currently only exact match is supported. 
-* aggregation. Defines whether the **last** field of the field array should be aggregated. Right now only sum is supported. 
+* **database.** The array of JavaScript objects you want to work with.
+* **fields.** The fields of the returned JavaScript objects.
+* **constraints.** Query constraints for individual fields. Currently only exact match is supported. 
+* **aggregation.** Defines whether the **last** field of the field array should be aggregated. Right now only sum is supported. 
  
-This is pretty much everything there is in smalltable.
+This is pretty much everything there is for now.
 
 ## Example
 
