@@ -19,18 +19,20 @@ This is pretty much everything there is in smalltable.
 
 ## Example
 
-Let's assume we have a simple data set of two elemets.
+Let's assume we have a simple data set of two elemetns.
 
 
 Return all elements that are fruit and cost 10.0. 
 
-
+``` javascript
   fields = ['type', 'name'];
   constraints = {
     type: 'fruit',
     price: '10'
   };
   smallTable.query(data, fields, constraints, false);
+```
+
 
 
 
