@@ -25,7 +25,12 @@ Let's assume we have a simple data set of two elemets.
 Return all elements that are fruit and cost 10.0. 
 
 
-  smallTable.query(data, fields, constraints, false0;
+  fields = ['type', 'name'];
+  constraints = {
+    type: 'fruit',
+    price: '10'
+  };
+  smallTable.query(data, fields, constraints, false);
 
 
 
