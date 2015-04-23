@@ -24,7 +24,7 @@ Let's assume we have a simple data set of two elements.
 ``` javascript
 var data = [
   {type:'fruit', name:'Banana', price: 10.0},
-  {type:'vegetable', name: 'Tomoate', price: 5.0}
+  {type:'vegetable', name: 'Tomato', price: 5.0}
   ];
 ```
 
